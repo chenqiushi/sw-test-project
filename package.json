@@ -1,0 +1,14 @@
+{
+  "name": "sw-test-project",
+  "version": "1.0.0",
+  "description": "test project for service worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "tracy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
