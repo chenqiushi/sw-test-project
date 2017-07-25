@@ -6,8 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <link rel="stylesheet" href="/static/one.css">
-    <link rel="stylesheet" href="/static/two.css">
+    <link rel="stylesheet" href="/news/static/main.css">
     <style>
         #app {
             font-size: 18px;
@@ -20,12 +19,12 @@
             <h2>Test Service Worker</h2>
         </div>
     </body>
-    <script src="/static/a.js"></script>
-    <script src="/static/b.js"></script>
+    <script src="/news/static/cache.js"></script>
+    <script src="/news/static/fastest.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register(
-                '/service-worker-dc1de655.js',
+                '/service-worker-7d58c68b.js',
                 {scope: '/'}
             )
             .then(function (registration) {

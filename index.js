@@ -13,6 +13,10 @@ app.get('/s', function(req, res){
   res.sendfile(__dirname + '/public/index.html');
 });
 
+app.get('/news', function(req, res){
+  res.sendfile(__dirname + '/public/index.html');
+});
+
 // serve static resources
 app.use(express.static(__dirname + '/public'));
 
